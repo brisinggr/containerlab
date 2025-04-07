@@ -11,9 +11,4 @@
     ],
     "workspaceFolder": "${localWorkspaceFolder}",
     "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind,consistency=cached"
-
-# Create SSH key for vscode user to enable passwordless SSH to devices
-# RUN ssh-keygen -t ecdsa -b 256 -N "" -f ~/.ssh/id_ecdsa
-    
-
 }
