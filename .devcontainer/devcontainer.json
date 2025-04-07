@@ -8,7 +8,6 @@
     "mounts": [
         "type=bind,src=/var/lib/docker,dst=/var/lib/docker",
         "type=bind,src=/lib/modules,dst=/lib/modules"
+        "source=C:/Users/luisf/.devpod/agent/contexts/default/workspaces/containerlab/content,target=/workspace,type=bind"
     ],
-    "workspaceFolder": "${localWorkspaceFolder}",
-    "workspaceMount": "source=${localWorkspaceFolder},target=${localWorkspaceFolder},type=bind,consistency=cached"
 }
