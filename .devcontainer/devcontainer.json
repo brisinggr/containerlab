@@ -6,7 +6,7 @@
         "--privileged"
     ],
     "mounts": [
-        "source=C:/Users/luisf/.devpod/agent/contexts/default/workspaces/srl-telemetry-lab/content,target=/workspace3,type=bind"
+        "source=C:/Users/luisf/.devpod/agent/contexts/default/workspaces/containerlab/content,target=/workspace3,type=bind"
        
     ],
 }
